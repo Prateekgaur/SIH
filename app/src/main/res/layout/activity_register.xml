@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/bLogin"
+        android:text="Login As Paricipant"
+        android:background="#FF9800"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bLogin2"
+        android:text="Login As Institution"
+        android:background="#FEA713"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bLogin3"
+        android:text="Login As Organisation"
+        android:layout_margin="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvRegistrationLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register here As Participants"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/tvRegistrationLink2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register here As Institution"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/tvRegistrationLink3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register here As Organisation"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"/>
+
+</LinearLayout>

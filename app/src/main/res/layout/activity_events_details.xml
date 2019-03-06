@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/androidmobile7"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_7"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_11"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:src="@drawable/rectangle7"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:src="@drawable/rectangle7"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name"
+        android:textColor="#fc752d"
+        android:textSize="13dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Event Info"
+        android:textColor="#707070"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="#707070"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name"
+        android:textColor="#fc752d"
+        android:textSize="13dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="#707070"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Info"
+        android:textColor="#707070"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="406dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name"
+        android:textColor="#fc752d"
+        android:textSize="13dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="123dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name"
+        android:textColor="#fc752d"
+        android:textSize="13dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:src="@drawable/arrow_right1"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:src="@drawable/arrow_right1"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:src="@drawable/arrow_down1"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
